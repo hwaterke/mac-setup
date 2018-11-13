@@ -26,7 +26,7 @@ brew install exiftool
 brew install fdupes
 brew install ffmpeg
 brew install graphviz
-brew install imagemagick --with-webp
+brew install imagemagick --with-librsvg
 brew install mas
 brew install mitmproxy
 brew install speedtest-cli
@@ -57,7 +57,6 @@ brew install thefuck
 fish -c "fisher omf/thefuck"
 
 # For Ruby
-# brew install ruby-build
 # brew install rbenv
 
 # Webdev
