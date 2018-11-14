@@ -27,7 +27,6 @@ brew install fdupes
 brew install ffmpeg
 brew install graphviz
 brew install imagemagick --with-librsvg
-brew install mas
 brew install mitmproxy
 brew install speedtest-cli
 brew install ssh-copy-id
@@ -44,31 +43,28 @@ brew install fish
 LINE="/usr/local/bin/fish"
 grep -q "$LINE" /etc/shells || sudo bash -c 'echo /usr/local/bin/fish >> /etc/shells'
 
-# Run chsh -s /usr/local/bin/fish
-# Run fish_config the prompt
+# TODO Run chsh -s /usr/local/bin/fish
+# TODO Run fish_config the prompt
 
 # Install/Update fisher
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
 
 brew install fasd
-fish -c "fisher omf/fasd"
-
-brew install thefuck
-fish -c "fisher omf/thefuck"
+fish -c "fisher add oh-my-fish/plugin-fasd"
 
 # For Ruby
 # brew install rbenv
 
 # Webdev
-brew install node
-brew install yarn
+brew install node@10
+# TODO Add node bin to path
+brew install yarn --without-node
 brew cask install webstorm
 
 # Casks
-
 brew cask install keepingyouawake
 brew cask install spectacle
-# Accessibility access
+# TODO Accessibility access for spectacle
 brew cask install google-chrome
 brew cask install sublime-text
 brew cask install iterm2
@@ -76,6 +72,7 @@ brew cask install ngrok
 brew cask install postman
 brew cask install spotify
 brew cask install vlc
+brew cask install visual-studio-code
 
 # brew cask install dropbox
 # brew cask install google-drive
