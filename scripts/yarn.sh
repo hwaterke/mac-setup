@@ -3,9 +3,7 @@ set -e
 
 yarn global add \
 	create-react-app \
-	create-react-native-app \
-	exp \
+	expo-cli \
 	gatsby-cli \
 	prettier \
-	serve \
-	yact-js
+	serve
