@@ -47,7 +47,7 @@ grep -q "$LINE" /etc/shells || sudo bash -c 'echo /usr/local/bin/fish >> /etc/sh
 # TODO Run fish_config the prompt
 
 # Install/Update fisher
-curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
 brew install fasd
 fish -c "fisher add oh-my-fish/plugin-fasd"

@@ -6,6 +6,7 @@ set -Ux EDITOR nano
 # Abbreviations
 abbr --add bupc "brew update; and brew upgrade; and brew cleanup"
 
+abbr --add ds "docker ps -a"
 abbr --add dco "docker-compose"
 abbr --add dcol "docker-compose logs -f --tail 100"
 abbr --add dcod "docker-compose down"
