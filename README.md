@@ -12,22 +12,18 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 
 ## Preferences
 
-Dock > Size > Small
-Dock > Minimise windows using > Scale effect
-Dock > Automatically hide and show the Dock
-
-Security and privacy > Password after > Immediately
-Security and privacy > Firewall > On
-
-Sharing > Computer name
-Sharing > Uncheck all
-
-Trackpad > Tap to click
-Trackpad > Secondary click > Bottom right corner
-Trackpad > Scroll direction
-
-Bluetooth > Show in menu bar
-Sound > Show in menu bar
+- Dock > Size > Small
+- Dock > Minimise windows using > Scale effect
+- Dock > Automatically hide and show the Dock
+- Security and privacy > Password after > Immediately
+- Security and privacy > Firewall > On
+- Sharing > Computer name
+- Sharing > Uncheck all
+- Trackpad > Tap to click
+- Trackpad > Secondary click > Bottom right corner
+- Trackpad > Scroll direction
+- Bluetooth > Show in menu bar
+- Sound > Show in menu bar
 
 ## Install tools
 
