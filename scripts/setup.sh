@@ -59,7 +59,7 @@ fish -c "fisher add oh-my-fish/plugin-fasd"
 # Webdev
 brew install node@10
 # TODO Add node bin to path
-brew install yarn --without-node
+brew install yarn
 brew cask install webstorm
 
 # Casks
