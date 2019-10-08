@@ -22,6 +22,7 @@ brew cask install fork
 
 # Tools
 brew install ansible
+brew install awscli
 brew install exiftool
 brew install fdupes
 brew install ffmpeg
