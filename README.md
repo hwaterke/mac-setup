@@ -39,6 +39,7 @@ Add **iTerm** and **Spectacle**
 git config --global user.name "hwaterke"
 git config --global user.email "hwaterke@users.noreply.github.com"
 git config --global core.editor nano
+git config --global pull.rebase true
 ```
 
 ## Generate a new SSH key
