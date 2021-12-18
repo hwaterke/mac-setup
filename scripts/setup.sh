@@ -44,9 +44,7 @@ brew install youtube-dl
 # brew install rbenv
 
 # Webdev
-brew install node@10
-# TODO Add node bin to path
-brew install yarn
+
 brew cask install webstorm
 
 # Casks
@@ -54,7 +52,6 @@ brew cask install keepingyouawake
 brew cask install spectacle
 # TODO Accessibility access for spectacle
 brew cask install google-chrome
-brew cask install sublime-text
 brew cask install iterm2
 brew cask install ngrok
 brew cask install postman
