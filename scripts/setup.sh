@@ -13,7 +13,7 @@ brew update
 brew upgrade
 
 # Unix tools
-brew install htop nmap tree watch wget
+brew install curl htop nmap tree watch wget
 
 # Git
 brew install git
@@ -22,13 +22,19 @@ brew cask install fork
 
 # Tools
 brew install ansible
+brew install asdf
 brew install awscli
+brew install bat
+brew install direnv
 brew install exiftool
+brew install fasd
 brew install fdupes
 brew install ffmpeg
-brew install graphviz
-brew install imagemagick --with-librsvg
+brew install imagemagick
+brew install jq
+brew install lazygit
 brew install mitmproxy
+brew install sops
 brew install speedtest-cli
 brew install ssh-copy-id
 brew install watchman

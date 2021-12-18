@@ -7,8 +7,6 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 - Install macOS updates
 - Install 1Password
 - Install XCode
-- Slack
-- WhatsApp Desktop
 
 ## Preferences
 
