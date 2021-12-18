@@ -35,30 +35,6 @@ Preferences > Users & Groups > Login Items
 
 Add **iTerm** and **Spectacle**
 
-## Fish
-
-Change your shell to fish:
-
-```bash
-chsh -s /usr/local/bin/fish
-```
-
-Open the fish config
-
-```bash
-fish_config
-```
-
-Select the prompt called **Classic + Vcs**
-
-Install the provided functions
-
-```bash
-cp ./fish-functions/* ~/.config/fish/functions/
-```
-
-Setup the rest: `./scripts/fish.sh`
-
 ## Configure git
 
 ```bash
