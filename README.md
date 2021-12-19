@@ -42,6 +42,8 @@ Set the profile as default, remove transparency and blur.
 
 Set Rows to 45 or more depending on the screen size.
 
+In `Apparance > General`, select `Exclude from Dock and ...`
+
 ## Zsh
 
 ```bash
