@@ -44,18 +44,18 @@ brew install yt-dlp/taps/yt-dlp
 
 # Webdev
 
-brew cask install webstorm
+brew install webstorm
 
 # Casks
-brew cask install keepingyouawake
-brew cask install spectacle
+brew install keepingyouawake
+brew install spectacle
 # TODO Accessibility access for spectacle
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install postman
-brew cask install spotify
-brew cask install vlc
-brew cask install visual-studio-code
+brew install google-chrome
+brew install iterm2
+brew install postman
+brew install spotify
+brew install vlc
+brew install visual-studio-code
 
 # brew cask install dropbox
 # brew cask install google-drive
