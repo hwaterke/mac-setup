@@ -25,6 +25,7 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 
 ## Install tools
 
+Update and install command line tools: `./scripts/macos-prep.sh`
 Simply run: `./scripts/setup.sh`
 
 ## Start apps on boot
