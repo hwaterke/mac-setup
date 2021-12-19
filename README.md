@@ -26,11 +26,13 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 ## Install tools
 
 Update and install command line tools:
+
 ```bash
 ./scripts/macos-prep.sh
 ```
 
 Simply run:
+
 ```bash
 ./scripts/setup.sh
 ```
@@ -84,10 +86,6 @@ Add it to your Github account
 ## Install docker for mac
 
 https://www.docker.com/docker-mac
-
-## yarn global packages
-
-Simply run: `./scripts/yarn.sh`
 
 ## Install WebStorm
 
