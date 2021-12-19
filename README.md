@@ -35,6 +35,26 @@ Simply run:
 ./scripts/setup.sh
 ```
 
+## iTerm
+
+Go to `Preferences > Keys > Hotkey` and click on `Create a Dedicated Hotkey Window...`
+Set the profile as default, remove transparency and blur.
+
+Set Rows to 45 or more depending on the screen size.
+
+## Zsh
+
+```bash
+brew install zsh
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Custom plugins (relead shell first)
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# Apply config
+cp zsh/zshrc ./.zshrc
+```
+
 ## Start apps on boot
 
 Preferences > Users & Groups > Login Items

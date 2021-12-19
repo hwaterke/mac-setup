@@ -1,0 +1,23 @@
+export ZSH=$HOME/.oh-my-zsh
+
+ZSH_THEME="robbyrussell"
+
+plugins=(
+  brew
+  docker
+  docker-compose
+  direnv
+  fasd
+  git
+  jsontools
+  terraform
+  vscode
+  yarn
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  history-substring-search
+)
+
+source $ZSH/oh-my-zsh.sh
+
+. /usr/local/opt/asdf/libexec/asdf.sh
