@@ -90,3 +90,22 @@ https://www.docker.com/docker-mac
 ## Install WebStorm
 
 - Add live templates back
+
+## asdf
+
+```bash
+# Dependencies for the node plugin
+brew install gpg gawk
+
+asdf plugin add nodejs
+asdf install nodejs latest
+asdf global nodejs latest
+
+asdf plugin add yarn
+asdf install yarn latest
+asdf global yarn latest
+
+asdf plugin add ruby
+asdf install ruby latest
+asdf global ruby latest
+```
