@@ -3,7 +3,7 @@ set -e
 
 if test ! $(which brew); then
   echo "Installing homebrew..."
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # Make sure we’re using the latest Homebrew.
@@ -18,7 +18,6 @@ brew install curl htop nmap tree watch wget
 # Git
 brew install git
 brew install hub
-brew cask install fork
 
 # Tools
 brew install ansible
@@ -53,7 +52,6 @@ brew cask install spectacle
 # TODO Accessibility access for spectacle
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install ngrok
 brew cask install postman
 brew cask install spotify
 brew cask install vlc
