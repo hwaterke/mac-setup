@@ -37,7 +37,7 @@ brew install sops
 brew install speedtest-cli
 brew install ssh-copy-id
 brew install watchman
-brew install youtube-dl
+brew install yt-dlp/taps/yt-dlp
 
 # For Ruby
 # brew install rbenv
