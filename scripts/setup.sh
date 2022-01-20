@@ -48,8 +48,8 @@ brew install webstorm
 
 # Casks
 brew install keepingyouawake
-brew install spectacle
-# TODO Accessibility access for spectacle
+brew install rectangle
+# TODO Accessibility access for rectangle
 brew install google-chrome
 brew install iterm2
 brew install postman
