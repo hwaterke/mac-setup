@@ -5,8 +5,9 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 ## Mac App Store
 
 - Install macOS updates
-- Install 1Password
 - Install XCode
+- Install [homebrew](https://brew.sh)
+- `brew bundle` the `Brewfile`
 
 ## Preferences
 
@@ -23,20 +24,6 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 - Bluetooth > Show in menu bar
 - Sound > Show in menu bar
 
-## Install tools
-
-Update and install command line tools:
-
-```bash
-./scripts/macos-prep.sh
-```
-
-Simply run:
-
-```bash
-./scripts/setup.sh
-```
-
 ## iTerm
 
 Go to `Preferences > Keys > Hotkey` and click on `Create a Dedicated Hotkey Window...`
@@ -49,10 +36,9 @@ In `Apparance > General`, select `Exclude from Dock and ...`
 ## Zsh
 
 ```bash
-brew install zsh
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-# Custom plugins (relead shell first)
+# Custom plugins (reload shell first)
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # Apply config
@@ -64,7 +50,7 @@ cp zsh/custom/*.zsh $ZSH_CUSTOM/
 
 Preferences > Users & Groups > Login Items
 
-Add **iTerm** and **Spectacle**
+Add **iTerm**
 
 ## Configure git
 
@@ -78,18 +64,10 @@ git config --global pull.rebase true
 ## Generate a new SSH key
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "harold@mbp2018"
+ssh-keygen -t rsa -b 4096 -C "harold@mbp2023"
 ```
 
 Add it to your Github account
-
-## Install docker for mac
-
-https://www.docker.com/docker-mac
-
-## Install WebStorm
-
-- Add live templates back
 
 ## asdf
 
