@@ -21,5 +21,3 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-. /usr/local/opt/asdf/libexec/asdf.sh

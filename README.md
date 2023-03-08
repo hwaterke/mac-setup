@@ -11,26 +11,26 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 
 ## Preferences
 
-- Dock > Size > Small
-- Dock > Minimise windows using > Scale effect
-- Dock > Automatically hide and show the Dock
-- Security and privacy > Password after > Immediately
-- Security and privacy > Firewall > On
-- Sharing > Computer name
-- Sharing > Uncheck all
+- Desktop & Dock > Size > Small
+- Desktop & Dock > Minimise windows using > Scale effect
+- Desktop & Dock > Automatically hide and show the Dock
+- Lock Screen > Require password ... > Immediately
+- Network > Firewall > On
+- General > Sharing > Local hostname
+- General > Sharing > Uncheck all
 - Trackpad > Tap to click
 - Trackpad > Secondary click > Bottom right corner
-- Trackpad > Scroll direction
-- Bluetooth > Show in menu bar
-- Sound > Show in menu bar
+- Trackpad > Scroll direction > Disable Natural scrolling
+- Control Centre > Bluetooth > Show in menu bar
+- Control Centre > Sound > Always show in menu bar
 
 ## Zsh
 
 ```bash
 # Setup brew zsh as default
 sudo nano /etc/shells
-# Add /usr/local/bin/zsh
-chsh -s /usr/local/bin/zsh
+# Add /opt/homebrew/bin/zsh
+chsh -s /opt/homebrew/bin/zsh
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -40,7 +40,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Copy
-cp zsh/zshrc ./.zshrc
+cp zsh/zshrc ~/.zshrc
 cp zsh/custom/*.zsh $ZSH_CUSTOM/
 ```
 
@@ -51,11 +51,11 @@ Set the profile as default, remove transparency and blur.
 
 Set Rows to 45 or more depending on the screen size.
 
-In `Apparance > General`, select `Exclude from Dock and ...`
+In `Appearance > General`, select `Exclude from Dock and ...`
 
 ## Start apps on boot
 
-Preferences > Users & Groups > Login Items
+Preferences > General > Login Items
 
 Add **iTerm**
 
@@ -70,11 +70,9 @@ git config --global pull.rebase true
 
 ## Generate a new SSH key
 
-```bash
-ssh-keygen -t rsa -b 4096 -C "harold@mbp2023"
-```
-
-Add it to your Github account
+- Use 1Password to generate an SSH Key for the computer.
+- Setup the 1Password SSH Agent.
+- Add the public key to your Github account.
 
 ## asdf
 
@@ -82,7 +80,7 @@ Add it to your Github account
 # Dependencies for the node plugin
 brew install gpg gawk
 
-asdf plugin add nodejs
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs latest
 asdf global nodejs latest
 
@@ -90,7 +88,11 @@ asdf plugin add yarn
 asdf install yarn latest
 asdf global yarn latest
 
-asdf plugin add ruby
+asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
 asdf install ruby latest
 asdf global ruby latest
+
+asdf plugin add terraform
+asdf install terraform latest
+asdf global terraform latest
 ```
