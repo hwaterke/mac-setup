@@ -14,7 +14,6 @@ plugins=(
   npm
   terraform
   vscode
-  yarn
   zsh-autosuggestions
   zsh-syntax-highlighting
   history-substring-search

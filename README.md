@@ -16,6 +16,7 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 - Desktop & Dock > Automatically hide and show the Dock
 - Lock Screen > Require password ... > Immediately
 - Network > Firewall > On
+- General > About > Change computer name
 - General > Sharing > Local hostname
 - General > Sharing > Uncheck all
 - Trackpad > Tap to click
@@ -23,6 +24,12 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 - Trackpad > Scroll direction > Disable Natural scrolling
 - Control Centre > Bluetooth > Show in menu bar
 - Control Centre > Sound > Always show in menu bar
+- Keyboard > Keyboard shortcuts > Input Sources > Uncheck
+
+# Rectangle settings
+
+- Launch on login
+- Check for updates automatically
 
 ## Zsh
 
@@ -83,10 +90,6 @@ brew install gpg gawk
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs latest
 asdf global nodejs latest
-
-asdf plugin add yarn
-asdf install yarn latest
-asdf global yarn latest
 
 asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
 asdf install ruby latest
