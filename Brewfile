@@ -1,7 +1,6 @@
 # Taps
+tap "1password/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "yt-dlp/taps"
 
 # Unix tools
@@ -53,19 +52,23 @@ brew "xz"
 # Command-line YAML, JSON and XML processor
 brew "yq"
 # Youtuve downloader
-brew "yt-dlp/taps/yt-dlp"
+brew "yt-dlp"
 brew "zsh"
 
 # Casks
 cask "1password"
+cask "1password-cli"
 cask "alt-tab"
+cask "bleunlock"
 cask "discord"
 cask "docker"
 cask "fanny"
 cask "firefox"
 cask "google-chrome"
 cask "iterm2"
+cask "karabiner-elements"
 cask "keepingyouawake"
+cask "obsidian"
 cask "omnidisksweeper"
 cask "openscad"
 cask "postman"
