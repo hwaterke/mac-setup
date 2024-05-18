@@ -12,8 +12,11 @@ This is a set of instructions and scripts to quickly setup a new mac to my likin
 ## Preferences
 
 - Desktop & Dock > Size > Small
+- Desktop & Dock > Magnification > Off
+- Desktop & Dock > Position on screen > Left
 - Desktop & Dock > Minimise windows using > Scale effect
 - Desktop & Dock > Automatically hide and show the Dock
+- Desktop & Dock > Desktop & Stage Manager > Show Items > Uncheck On Desktop
 - Lock Screen > Require password ... > Immediately
 - Network > Firewall > On
 - General > About > Change computer name
@@ -46,9 +49,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-# Copy
-cp zsh/zshrc ~/.zshrc
-cp zsh/custom/*.zsh $ZSH_CUSTOM/
+# Install dotfiles
+chezmoi init --apply hwaterke
 ```
 
 ## iTerm
@@ -73,6 +75,7 @@ git config --global user.name "hwaterke"
 git config --global user.email "hwaterke@users.noreply.github.com"
 git config --global core.editor nano
 git config --global pull.rebase true
+git config --global rerere.enabled true
 ```
 
 ## Generate a new SSH key
@@ -99,3 +102,7 @@ asdf plugin add terraform
 asdf install terraform latest
 asdf global terraform latest
 ```
+
+## WebStorm
+
+- Disable tabs

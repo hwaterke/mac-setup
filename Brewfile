@@ -26,6 +26,8 @@ brew "awscli"
 brew "b3sum"
 # cat clone with syntax highlighting and Git integration
 brew "bat"
+# dotfiles manager
+brew "chezmoi"
 brew "cloudflared"
 brew "direnv"
 brew "exiftool"
