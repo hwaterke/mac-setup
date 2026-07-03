@@ -20,7 +20,7 @@ brew "hub"
 
 brew "ansible"
 # Runtime versions management CLI
-brew "asdf"
+brew "mise"
 brew "awscli"
 # BLAKE3 hashing
 brew "b3sum"
@@ -29,7 +29,6 @@ brew "bat"
 # dotfiles manager
 brew "chezmoi"
 brew "cloudflared"
-brew "direnv"
 brew "exiftool"
 # Quick access to files and directories
 brew "fasd"
@@ -53,7 +52,7 @@ brew "xxhash"
 brew "xz"
 # Command-line YAML, JSON and XML processor
 brew "yq"
-# Youtuve downloader
+# Youtube downloader
 brew "yt-dlp"
 brew "zsh"
 
@@ -73,12 +72,16 @@ cask "keepingyouawake"
 cask "obsidian"
 cask "omnidisksweeper"
 cask "openscad"
-cask "postman"
 cask "qbittorrent"
 cask "raycast"
 cask "rectangle"
+brew "restic"
 cask "slack"
 cask "spotify"
+cask "stats"
 cask "visual-studio-code"
 cask "vlc"
 cask "webstorm"
+cask "yaak"
+
+vscode "bernhard-42.ocp-cad-viewer"
